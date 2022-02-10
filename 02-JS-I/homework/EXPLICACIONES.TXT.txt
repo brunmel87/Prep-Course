@@ -1,0 +1,30 @@
+VARIABLES: Una Variable nos permite almacenar valores que después se puedan reutilizar.- 
+           Almacena valores de tipo number, string y boolean, en caso de que se cree una variable y no se le asigne ningun valor, su valor por defecto será undefined.-
+           Existen palabras claves para definir una variable, las mismas son VAR, LET y CONST.-
+           El tipo de variable VAR tiene un alcance global, es decir que se puede acceder a ella desde cualquier parte del código y su valor se puede reemplazar en cualquier momento.-
+           El tipo de variable LET tiene un alcance de bloque, es decir que se puede acceder a ella desde lugares especificos y su valor no se puede redefinir con la misma facilicad que la anterior.-
+           El tipo de variable CONST también tiene un alcance de bloque y su valor, una vez definido, no se puede volver a reemplazar.-
+
+
+STRINGS: El String o Cadena es un Tipo de Dato, el cual contiene texto, dentro del String se puede escribir cualquier tipo de texto, ya sean palabras o números, la diferencia será que al agregar un número como un string es que el compilador no lo tomará como valor numérico, sino como texto.-
+         Para definir un valor String lo deberemos hacer encerrando el texto entre comillas, pueden ser comillas simples ('') o dobles ("").-
+
+
+FUNCIONES: Una función es un elemento de JavaScript del tipo Statement (Sentencia) el cual realiza una acción.
+           La misma se puede utilizar para realizar una tarea específica ó realizar un cálculo, entre otras cosas.
+           De este modo si tenemos que realizar una acción en reiteradas oportunidades y que cumplan un mismo requisito, solo deberemos accionar la función para utilizar ese código.
+           La función esta compuesta por la palabra clave "function", seguida de dos parentesis, en los cuales opcionalmente se podrá agregar un argumento, el cual se comportará como una variable al momento de que se le asigne un valor.-
+           Luego de ello se abriran llaves ( {} ) dentro de las cuales colocaremos la línea de código que deseamos que se ejecute cuando la función sea llamada.-
+           Al finalizar la definición de la función, por fuera de las llaves, para llamar a la función y que se ejecute el codigo dentro de la misma, colocaremos en el editor el nombre de la función seguido de los parentesis, y en caso de que la función requiera un valor donde se colocó un argumento, colocaremos ese valor.-
+
+DECLARACIONES IF: Las Declaraciones IF o Condicionales, son operadores de control de flujo y de comparación.-
+                  Se utilizan para bifurcar las lineas de código en relación a si se cumplean o no ciertos requisitos/condiciones.-
+                  Para definirlas colocaremos la palabra clave IF seguida de unos parentesis en donde colocaremos la condición que se debe cumplir y luego abriremos llaves ( {} ), en donde colocaremos la línea de código que se ejecutará si la condición se cumple.-
+                  Esto se puede complementar seguido de un ELSE IF, el cual se comporta de mismo modo que el IF y/o se concluye el condicional con un ELSE.-
+                  En caso de colocar IF y ELSE unicamente, el condicional solo elegirá entre dos opciones, en cambio si colocamos el ELSE IF podemos utilizar infinita cantidad de condiciones a cumplirse para que se ejecuten difentes codigos.-
+                  También se pueden repetir los IF, con la diferencia que si utilizamos solo IF el condicional consultará cada uno de los IF, sin importar que la condición se cumpla y se ejecute el código, también ejecutará el resto, en cambio si utilizamos un solo IF y el resto ELSE IF, al momento de que se cumpla la condicion, el condicional dejará de ejecutarse.-
+
+VALORES BOLEANOS: Estos valores son un Tipo de Dato, el cual consta de dos valores dentro del tipo Boolean, que son TRUE y FALSE.-
+                  Los valores true y false son palabras claves dentro del editor de código, por lo que se escriben de forma textual, sin comillas y solo se pueden utilizar como valor.-
+                  Parecen valores simples e insignificante, pero cumplen un rol importante dentro del código JavaScript, ya que por intermedio de ello se le da funcionalidad a otras cosas.-
+                  Por ejemplo, para utilizar los condicionales, dependeremos de una condición, la cual será siempre un valor Boolean, el que deifinirá si esa condición se ejecutará o no.-
